@@ -1,1 +1,1 @@
-# Practical tasks
+# Practical tasks JS
