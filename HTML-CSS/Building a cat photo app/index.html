@@ -1,6 +1,5 @@
-<!-- DESCRIPTION STEP 47:
-Create another radio button below the first one. Nest it inside a <label> element with Outdoor as the label text.
-Give the radio button an id attribute with outdoor as the value. -->
+<!-- DESCRIPTION STEP 48:
+Add the name attribute with the value indoor-outdoor to both radio buttons. -->
 
 <!-- SOLUTION: -->
 
@@ -42,8 +41,8 @@ Give the radio button an id attribute with outdoor as the value. -->
         <form action="https://freecatphotoapp.com/submit-cat-photo">
           <button type="submit">Submit</button>
         </form>
-        <label><input id="indoor" type="radio"> Indoor</label>
-        <label><input id="outdoor" type="radio"> Outdoor</label>
+        <label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+        <label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
         <input type="text" name="catphotourl" required placeholder="cat photo URL">
       </section>
     </main>
