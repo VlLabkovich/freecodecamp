@@ -4,3 +4,5 @@
 // SOLUTION:
 
 var myName;
+
+console.log(myName);
