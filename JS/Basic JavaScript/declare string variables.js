@@ -6,3 +6,6 @@
 
 var myFirstName = "Vladislav";
 var myLastName = "Labkovich";
+
+console.log(myFirstName);
+console.log(myLastName);
