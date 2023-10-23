@@ -1,7 +1,5 @@
-/* DESCRIPTION STEP 25:
-Next, you want to center the #menu horizontally. You can do this by setting its margin-left and margin-right properties to auto.
-Think of the margin as invisible space around an element.
-Using these two margin properties, center the #menu element within the <body> element. */
+/* DESCRIPTION STEP 26:
+Change the existing #menu selector into a class selector by replacing #menu with a class named .menu. */
 
 /* SOLUTION: */
 
@@ -13,7 +11,7 @@ h1, h2, p {
   text-align: center;
 }
 
-#menu {
+.menu {
   width: 80%;
   background-color: burlywood;
   margin-left: auto;
