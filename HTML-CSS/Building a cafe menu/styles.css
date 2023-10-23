@@ -1,14 +1,14 @@
-/* DESCRIPTION STEP 21:
-Use the #menu selector to give your element a width of 300px. */
+/* DESCRIPTION STEP 22:
+In your style sheet, comment out the line containing the background-color property and value, so you can see the effect of only styling the #menu element. This will make the background white again. */
 
 /* SOLUTION: */
 
-h1, h2, p {
-    text-align: center;
-  }
-
 body {
-  background-color: burlywood;
+  /*background-color: burlywood;*/
+}
+
+h1, h2, p {
+  text-align: center;
 }
 
 #menu {
