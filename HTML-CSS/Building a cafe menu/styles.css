@@ -1,10 +1,10 @@
-/* DESCRIPTION STEP 26:
-Change the existing #menu selector into a class selector by replacing #menu with a class named .menu. */
+/* DESCRIPTION STEP 28:
+Delete the comment and its contents inside the <body> type selector. Now add a background-image property and set its value to url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg). */
 
 /* SOLUTION: */
 
 body {
-  /*background-color: burlywood;*/
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
 }
 
 h1, h2, p {
