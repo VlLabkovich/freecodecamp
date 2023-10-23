@@ -1,11 +1,16 @@
-/* DESCRIPTION STEP 19:
-That brown background makes it hard to read the text. Change the <body> element's background color to be burlywood so it has some color but you are still be able to read the text. */
+/* DESCRIPTION STEP 21:
+Use the #menu selector to give your element a width of 300px. */
 
 /* SOLUTION: */
 
 h1, h2, p {
     text-align: center;
   }
+
 body {
   background-color: burlywood;
+}
+
+#menu {
+  width: 300px;
 }
