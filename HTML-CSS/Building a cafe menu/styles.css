@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 33:
-Using your new flavor class as a selector, set the text-align property's value to left. */
+/* DESCRIPTION STEP 35:
+Now align the text to the right for the elements with the price class. */
 
 /* SOLUTION: */
 
@@ -20,4 +20,8 @@ h1, h2, p {
 
 .flavor {
   text-align: left;
+}
+
+.price {
+  text-align: right;
 }
