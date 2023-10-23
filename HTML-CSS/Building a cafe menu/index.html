@@ -1,5 +1,8 @@
-<!-- DESCRIPTION STEP 34:
-Add a class named price to your <p> element that has 3.00 as its text. -->
+<!-- DESCRIPTION STEP 36:
+That is kind of what you want, but now it would be nice if the flavor and price were on the same line. 
+<p> elements are block-level elements, so they take up the entire width of their parent element.
+To get them on the same line, you need to apply some styling to the <p> elements so they behave more like inline elements.
+To do that, start by adding a class attribute with the value item to the first <article> element under the Coffee heading. -->
 
 <!-- SOLUTION: -->
 
@@ -18,7 +21,7 @@ Add a class named price to your <p> element that has 3.00 as its text. -->
         <p>Est. 2020</p>   
         <section>
           <h2>Coffee</h2>
-          <article>
+          <article class="item">
             <p class="flavor">French Vanilla</p>
             <p class="price">3.00</p>
           </article>
