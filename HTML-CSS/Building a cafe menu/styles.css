@@ -1,8 +1,5 @@
-/* DESCRIPTION STEP 39:
-Well that did not work. Styling the <p> elements as inline-block and placing them on separate
-lines in the code creates an extra space to the right of the first <p> element, causing the second one to shift to the next line.
-One way to fix this is to make each <p> element's width a little less than 50%.
-Change the width value to 49% for each class to see what happens. */
+/* DESCRIPTION STEP 41:
+Now go ahead and change both the .flavor and .price class' widths to be 50% again. */
 
 /* SOLUTION: */
 
@@ -23,12 +20,12 @@ h1, h2, p {
 
 .flavor {
   text-align: left;
-  width: 49%;
+  width: 50%;
 }
 
 .price {
   text-align: right;
-  width: 49%;
+  width: 50%;
 }
 
 .item p {
