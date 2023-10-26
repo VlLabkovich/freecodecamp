@@ -1,4 +1,4 @@
-/* DESCRIPTION STEP 54:
+/* DESCRIPTION STEP 55:
 Now try to add the same 20px padding to the top and bottom of the menu. */
 
 /* SOLUTION: */
@@ -16,10 +16,7 @@ h1, h2, p {
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
 .item p {
