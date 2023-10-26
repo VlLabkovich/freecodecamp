@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 53:
-Give the menu class a padding-left and a padding-right with the same value 20px. */
+/* DESCRIPTION STEP 54:
+Now try to add the same 20px padding to the top and bottom of the menu. */
 
 /* SOLUTION: */
 
@@ -18,6 +18,8 @@ h1, h2, p {
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .item p {
