@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 57:
-Change all the text in your body, by adding a font-family property with the value sans-serif. This is a fairly common font that is very readable. */
+/* DESCRIPTION STEP 58:
+Style both the <h1> and the <h2> elements so that only these elements' text use Impact font. */
 
 /* SOLUTION: */
 
@@ -19,6 +19,10 @@ h1, h2, p {
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+}
+
+h1, h2 {
+  font-family: Impact;
 }
 
 .item p {
