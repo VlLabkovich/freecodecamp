@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 55:
-Now try to add the same 20px padding to the top and bottom of the menu. */
+/* DESCRIPTION STEP 56:
+Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide. */
 
 /* SOLUTION: */
 
@@ -17,6 +17,7 @@ h1, h2, p {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+  max-width: 500px;
 }
 
 .item p {
