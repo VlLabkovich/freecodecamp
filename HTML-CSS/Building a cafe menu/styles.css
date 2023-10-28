@@ -1,10 +1,11 @@
-/* DESCRIPTION STEP 56:
-Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide. */
+/* DESCRIPTION STEP 57:
+Change all the text in your body, by adding a font-family property with the value sans-serif. This is a fairly common font that is very readable. */
 
 /* SOLUTION: */
 
 body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  font-family: sans-serif;
 }
 
 h1, h2, p {
