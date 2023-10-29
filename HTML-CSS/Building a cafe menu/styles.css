@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 78:
-Moving down to the <footer> element, make all the text have a value of 14px for the font size. */
+/* DESCRIPTION STEP 79:
+To make the footer links the same color regardless if a link has been visited, use a type selector for the anchor element a and use the value black for the color property. */
 
 /* SOLUTION: */
 
@@ -69,4 +69,8 @@ h1, h2 {
 
 footer {
   font-size: 14px;
+}
+
+a {
+  color: black;
 }
