@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 75:
-Add some more space by creating a class named .bottom-line using 25px for the margin-top property. */
+/* DESCRIPTION STEP 77:
+Next you are going to be styling the <footer> element. To keep the CSS organized, add a comment at the end of styles.css with the text FOOTER. */
 
 /* SOLUTION: */
 
@@ -64,3 +64,5 @@ h1, h2 {
   text-align: right;
   width: 25%;
 }
+
+/*FOOTER*/
