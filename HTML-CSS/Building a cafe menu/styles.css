@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 68:
-Change the background color of the hr element to brown so it matches the color of the coffee beans. */
+/* DESCRIPTION STEP 69:
+Make all the edges of the hr element the same color as the background of it using the border-color property. */
 
 /* SOLUTION: */
 
@@ -36,6 +36,7 @@ h1, h2, p {
 hr {
   height: 3px;
   background-color: brown;
+  border-color: brown;
 }
 
 h1, h2 {
