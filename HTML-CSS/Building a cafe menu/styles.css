@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 74:
-Using the same style selector in the previous step, make the font size of the items and prices larger by using a value of 18px. */
+/* DESCRIPTION STEP 75:
+Add some more space by creating a class named .bottom-line using 25px for the margin-top property. */
 
 /* SOLUTION: */
 
@@ -38,6 +38,10 @@ hr {
   height: 2px;
   background-color: brown;
   border-color: brown;
+}
+
+.bottom-line {
+  margin-top: 25px;
 }
 
 h1, h2 {
