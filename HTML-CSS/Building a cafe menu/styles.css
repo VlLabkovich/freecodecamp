@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 62:
-Add two new type selectors (h1 and h2). Use the font-size property for both, but use the value 40px for the h1 and 30px for the h2. */
+/* DESCRIPTION STEP 67:
+Change the height of the hr element to be 3px. */
 
 /* SOLUTION: */
 
@@ -31,6 +31,10 @@ h1, h2, p {
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+}
+
+hr {
+  height: 3px;
 }
 
 h1, h2 {
