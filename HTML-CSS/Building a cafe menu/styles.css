@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 83:
-To keep with the same color theme you have already been using (black and brown), change the color for when the link is visited to black and use brown for when the link is actually clicked. */
+/* DESCRIPTION STEP 84:
+Change the top margin of the h1 element to 0 to remove all the top margin. */
 
 /* SOLUTION: */
 
@@ -11,6 +11,7 @@ body {
 
 h1 {
   font-size: 40px;
+  margin-top: 0px;
 }
 
 h2 {
