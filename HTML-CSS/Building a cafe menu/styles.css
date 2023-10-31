@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 85:
-To remove some of the vertical space between the <h1> element and the text Est. 2020, change the bottom margin of the h1 to 15px. */
+/* DESCRIPTION STEP 86:
+To decrease the default margin space below the address <p> element, create a class selector named .address and use the value 5px for the margin-bottom property. */
 
 /* SOLUTION: */
 
@@ -82,3 +82,7 @@ a:visited { color: black; }
 a:hover { color: brown; }
 
 a:active { color: brown; }
+
+.address {
+  margin-bottom: 5px;
+}
