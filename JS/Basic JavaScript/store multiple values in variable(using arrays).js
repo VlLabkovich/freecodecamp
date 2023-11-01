@@ -4,4 +4,6 @@
 // SOLUTION:
 
 // Only change code below this line
-const myArray = [];
+const myArray = ["myArray", 2];
+
+console.log(myArray);
