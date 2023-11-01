@@ -11,4 +11,6 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 
 // Only change code below this line
-const wordBlanks = ""; 
+const wordBlanks = "My " + myNoun + " " + myVerb + " " + myAdjective + " " + myAdverb + ".";
+
+console.log(wordBlanks);
