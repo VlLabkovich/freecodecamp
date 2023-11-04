@@ -10,4 +10,6 @@ const myArray = [
     [[10, 11, 12], 13, 14],
   ];
   
-  const myData = myArray[0][0];
+  const myData = myArray[2][1];
+
+  console.log(myData);
