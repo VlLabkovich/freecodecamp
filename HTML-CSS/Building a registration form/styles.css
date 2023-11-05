@@ -1,5 +1,6 @@
-/* DESCRIPTION STEP 10:
-That is better. Now, make the background easy on the eyes, by changing the body background-color to #1b1b32. Then, to see the text, change the color to #f5f6f7. */
+/* DESCRIPTION STEP 16:
+As label elements are inline by default, they are all displayed side by side on the same line, making their text hard to read.
+To make them appear on separate lines, add display: block to the label element, and add a margin of 0.5rem 0, to separate them from each other. */
 
 /* SOLUTION: */
 
@@ -9,4 +10,9 @@ body {
   margin: 0;
   background-color:#1b1b32;
   color:#f5f6f7;
+}
+
+label {
+  display: block;
+  margin: 0,5rem 0;
 }
