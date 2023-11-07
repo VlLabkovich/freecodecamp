@@ -1,5 +1,6 @@
-<!-- DESCRIPTION STEP 28:
-To solve this, you can provide context of what is needed by adding legend element below the second fieldset with text Account type (required), then add checked attribute to the Personal input to make sure that the form is submitted with the required data in it. -->
+<!-- DESCRIPTION STEP 29:
+Follow accessibility best practices by linking the input elements and the label elements in the second fieldset.
+Use personal-account, and business-account as values for the respective id attributes. -->
 
 <!-- SOLUTION: -->
 
@@ -22,8 +23,8 @@ To solve this, you can provide context of what is needed by adding legend elemen
       </fieldset>
       <fieldset>
         <legend>Account type (required)</legend>
-        <label><input type="radio" name="account-type" checked /> Personal</label>
-        <label><input type="radio" name="account-type" /> Business</label>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" /> Business</label>
       </fieldset>
       <fieldset></fieldset>
       <input type="submit" value="Submit" />
