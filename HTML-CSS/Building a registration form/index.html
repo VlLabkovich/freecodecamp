@@ -1,5 +1,5 @@
-<!-- DESCRIPTION STEP 26:
-Within each corresponding label element, and immediately after the input element, add a space and add the following text: -->
+<!-- DESCRIPTION STEP 27:
+To relate the radio inputs, give them the same name attribute with a value of account-type. Now, it is not possible to select both radio inputs at the same time. -->
 
 <!-- SOLUTION: -->
 
@@ -21,8 +21,8 @@ Within each corresponding label element, and immediately after the input element
         <label for="new-password">Create a New Password: <input id="new-password" pattern="[a-z0-5]{8,}" type="password" required /></label>
       </fieldset>
       <fieldset>
-        <label><input type="radio" /> Personal</label>
-        <label><input type="radio" /> Business</label>
+        <label><input type="radio" name="account-type" /> Personal</label>
+        <label><input type="radio" name="account-type" /> Business</label>
       </fieldset>
       <fieldset></fieldset>
       <input type="submit" value="Submit" />
