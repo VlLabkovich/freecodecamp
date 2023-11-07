@@ -1,5 +1,5 @@
-<!-- DESCRIPTION STEP 27:
-To relate the radio inputs, give them the same name attribute with a value of account-type. Now, it is not possible to select both radio inputs at the same time. -->
+<!-- DESCRIPTION STEP 28:
+To solve this, you can provide context of what is needed by adding legend element below the second fieldset with text Account type (required), then add checked attribute to the Personal input to make sure that the form is submitted with the required data in it. -->
 
 <!-- SOLUTION: -->
 
@@ -21,7 +21,8 @@ To relate the radio inputs, give them the same name attribute with a value of ac
         <label for="new-password">Create a New Password: <input id="new-password" pattern="[a-z0-5]{8,}" type="password" required /></label>
       </fieldset>
       <fieldset>
-        <label><input type="radio" name="account-type" /> Personal</label>
+        <legend>Account type (required)</legend>
+        <label><input type="radio" name="account-type" checked /> Personal</label>
         <label><input type="radio" name="account-type" /> Business</label>
       </fieldset>
       <fieldset></fieldset>
