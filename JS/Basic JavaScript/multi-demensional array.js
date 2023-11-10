@@ -6,4 +6,12 @@
 
 // SOLUTION:
 
-const myList = [];
+const myList = [
+    ['first', 1],
+    ['second', 2],
+    ['third', 3],
+    ['four', 4],
+    ['five', 5]
+  ];
+
+  console.log(myList);
