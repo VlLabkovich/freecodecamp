@@ -3,3 +3,9 @@
 // Call the function.
 
 // SOLUTION:
+
+function reusableFunction() {
+    console.log("Hi World");
+  }
+  
+  reusableFunction();
