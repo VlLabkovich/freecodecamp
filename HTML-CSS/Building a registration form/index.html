@@ -1,6 +1,6 @@
-<!-- DESCRIPTION STEP 39:
-Link the applicable form elements and their label elements together.
-Use profile-picture, age, referrer, and bio as values for the respective id attributes. -->
+<!-- DESCRIPTION STEP 40:
+The textarea appears too small. To give it an initial size, you can add the rows and cols attributes.
+Add an initial size of 3 rows and 30 columns. -->
 
 <!-- SOLUTION: -->
 
@@ -38,7 +38,7 @@ Use profile-picture, age, referrer, and bio as values for the respective id attr
             <option value="4">Other</option>
           </select>
         </label>
-        <label for="bio">Provide a bio:<textarea id="bio"></textarea></label>
+        <label for="bio">Provide a bio:<textarea id="bio" rows="3" cols="30"></textarea></label>
       </fieldset>
       <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
       <input type="submit" value="Submit" />
