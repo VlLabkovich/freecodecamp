@@ -1,7 +1,7 @@
-/* DESCRIPTION STEP 48:
-The border of the last fieldset element looks a little out of place. You can select the last element of a specific type using the last-of-type CSS pseudo-class, like this:
-p:last-of-type { }
-That will select the last p element. Create a new selector that targets the last fieldset element and set its border-bottom to none. */
+/* DESCRIPTION STEP 49:
+It would be nicer to have the label text appear above the form elements.
+Select all input, textarea, and select elements, and make them take up the full width of their parent elements.
+Also, add 10px of margin to the top of the selected elements. Set the other margins to 0. */
 
 /* SOLUTION: */
 
@@ -36,6 +36,14 @@ fieldset {
 fieldset:last-of-type {
   border-bottom: none;
 } 
+
+input, textarea, select {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
 
 label {
   display: block;
