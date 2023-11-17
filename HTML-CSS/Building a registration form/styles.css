@@ -1,5 +1,6 @@
-/* DESCRIPTION STEP 44:
-Center the h1 and p elements by giving them a margin of 1em auto. Then, align their text in the center as well. */
+/* DESCRIPTION STEP 45:
+Center the form element, by giving it a margin of 0 auto. Then, fix its size to a maximum width of 500px, and a minimum width of 300px.
+In between that range, allow it to have a width of 60vw. */
 
 /* SOLUTION: */
 
@@ -13,12 +14,19 @@ body {
   font-size: 16px;
 }
 
-label {
-  display: block;
-  margin: 0,5rem 0;
-}
-
 h1, p {
   margin: 1em auto;
   text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+}
+
+label {
+  display: block;
+  margin: 0,5rem 0;
 }
