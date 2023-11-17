@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 43:
-Start by changing the font to Tahoma, and the font size to 16px in the body. */
+/* DESCRIPTION STEP 44:
+Center the h1 and p elements by giving them a margin of 1em auto. Then, align their text in the center as well. */
 
 /* SOLUTION: */
 
@@ -16,4 +16,9 @@ body {
 label {
   display: block;
   margin: 0,5rem 0;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
 }
