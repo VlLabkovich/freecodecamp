@@ -1,6 +1,5 @@
-/* DESCRIPTION STEP 16:
-As label elements are inline by default, they are all displayed side by side on the same line, making their text hard to read.
-To make them appear on separate lines, add display: block to the label element, and add a margin of 0.5rem 0, to separate them from each other. */
+/* DESCRIPTION STEP 43:
+Start by changing the font to Tahoma, and the font size to 16px in the body. */
 
 /* SOLUTION: */
 
@@ -10,6 +9,8 @@ body {
   margin: 0;
   background-color:#1b1b32;
   color:#f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
 }
 
 label {
