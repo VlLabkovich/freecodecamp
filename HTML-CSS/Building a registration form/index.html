@@ -1,5 +1,6 @@
-<!-- DESCRIPTION STEP 42:
-Give each submittable element a unique name attribute of your choosing, except for the two radio inputs. -->
+<!-- DESCRIPTION STEP 50:
+For the second fieldset, you want the input and label text to appear on the same line.
+Start, by giving the input elements in the second fieldset a class of inline. -->
 
 <!-- SOLUTION: -->
 
@@ -22,8 +23,8 @@ Give each submittable element a unique name attribute of your choosing, except f
       </fieldset>
       <fieldset>
         <legend>Account type (required)</legend>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" name="personal-account" checked /> Personal</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" name="business-account" /> Business</label>
+        <label for="personal-account"><input class="inline" id="personal-account" type="radio" name="account-type" name="personal-account" checked /> Personal</label>
+        <label for="business-account"><input class="inline" id="business-account" type="radio" name="account-type" name="business-account" /> Business</label>
       </fieldset>
       <fieldset>
         <label for="profile-picture">Upload a profile picture: <input id="profile-picture" name="profile-picture" type="file" /></label>
