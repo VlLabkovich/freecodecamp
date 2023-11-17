@@ -1,6 +1,6 @@
-/* DESCRIPTION STEP 45:
-Center the form element, by giving it a margin of 0 auto. Then, fix its size to a maximum width of 500px, and a minimum width of 300px.
-In between that range, allow it to have a width of 60vw. */
+/* DESCRIPTION STEP 46:
+Remove the border, and add 2rem of padding only to the top and bottom of each fieldset.
+Be sure to remove the padding from the left and right. */
 
 /* SOLUTION: */
 
@@ -20,10 +20,18 @@ h1, p {
 }
 
 form {
-  margin: 0 auto;
+  width: 60vw;
   max-width: 500px;
   min-width: 300px;
-  width: 60vw;
+  margin: 0 auto;
+}
+
+fieldset {
+  border: 0 none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 label {
