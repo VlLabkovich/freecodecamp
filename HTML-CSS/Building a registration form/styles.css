@@ -1,7 +1,6 @@
-/* DESCRIPTION STEP 49:
-It would be nicer to have the label text appear above the form elements.
-Select all input, textarea, and select elements, and make them take up the full width of their parent elements.
-Also, add 10px of margin to the top of the selected elements. Set the other margins to 0. */
+/* DESCRIPTION STEP 51:
+Select only the .inline elements, and give them width of unset.
+This will remove the earlier rule which set all the input elements to width: 100%. */
 
 /* SOLUTION: */
 
@@ -43,6 +42,10 @@ input, textarea, select {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+}
+
+.inline {
+  width: unset;
 }
 
 label {
