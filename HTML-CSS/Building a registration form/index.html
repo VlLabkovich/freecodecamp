@@ -1,6 +1,5 @@
-<!-- DESCRIPTION STEP 50:
-For the second fieldset, you want the input and label text to appear on the same line.
-Start, by giving the input elements in the second fieldset a class of inline. -->
+<!-- DESCRIPTION STEP 64:
+Make the input for the terms and conditions inline by adding the appropriate class in the HTML. -->
 
 <!-- SOLUTION: -->
 
@@ -40,7 +39,7 @@ Start, by giving the input elements in the second fieldset a class of inline. --
         </label>
         <label for="bio">Provide a bio:<textarea id="bio" rows="3" cols="30" name="bio" placeholder="I like coding on the beach..."></textarea></label>
       </fieldset>
-      <label for="terms-and-conditions"><input id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+      <label for="terms-and-conditions"><input class="inline" id="terms-and-conditions" type="checkbox" name="terms-and-conditions" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
       <input type="submit" value="Submit" />
     </form>
   </body>
