@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 55:
-Fix this, by setting the color to #ffffff, and setting their min-height to 2em. */
+/* DESCRIPTION STEP 56:
+Move the min-height property and value so that all three element types have the same min-height value, and the select element still has a white background. */
 
 /* SOLUTION: */
 
@@ -46,13 +46,13 @@ input, textarea, select {
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
+  min-height: 2em;
 }
 
 input, textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
-  min-height: 2em;
 }
 
 .inline {
