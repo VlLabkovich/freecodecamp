@@ -1,6 +1,5 @@
-/* DESCRIPTION STEP 59:
-To make the submit button look more in line with the rest of the form, give it the same height as the other fields (2em).
-Also, increase the font-size to 1.1rem. */
+/* DESCRIPTION STEP 60:
+To make the submit button appear more distinct, give it a background-color of #3b3b4f, and a border-color of white. */
 
 /* SOLUTION: */
 
@@ -71,4 +70,6 @@ input[type="submit"] {
   margin: 0 auto;
   height: 2em;
   font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
 }
