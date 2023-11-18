@@ -1,6 +1,5 @@
-/* DESCRIPTION STEP 63:
-Speaking of padding, the submit button is sitting at the bottom of the form element.
-Add 2em of padding only to the bottom of the form. */
+/* DESCRIPTION STEP 65:
+Lastly change the text color of the terms and conditions link element to #dfdfe2 by adding a new selector in the CSS. */
 
 /* SOLUTION: */
 
@@ -82,4 +81,8 @@ input[type="submit"] {
 
 input[type="file"] {
   padding: 1px 2px;
+}
+
+a {
+  color: #dfdfe2;
 }
