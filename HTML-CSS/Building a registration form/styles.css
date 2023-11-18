@@ -1,5 +1,5 @@
-/* DESCRIPTION STEP 56:
-Move the min-height property and value so that all three element types have the same min-height value, and the select element still has a white background. */
+/* DESCRIPTION STEP 57:
+Now, use the attribute selector to style the submit button with a display of block, and a width of 60%. */
 
 /* SOLUTION: */
 
@@ -62,4 +62,9 @@ input, textarea {
   margin-bottom: 0;
   margin-left: 0;
   vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
 }
